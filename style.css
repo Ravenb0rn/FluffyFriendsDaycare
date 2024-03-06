@@ -1,0 +1,28 @@
+.partone {
+    background-color: #1F2937;
+
+}
+
+.logo {
+height: auto;
+width: 60px;
+
+}
+
+.links {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: flex-end;
+    
+}
+.maintitle {
+    font-size: 48 px;
+    font-weight: extra-bold;
+    color: #f9faf8
+
+}
+.links.firstquote {
+    font-size: 18px;
+    color: #E5E7EB
+
+}
