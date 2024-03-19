@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 .partone {
     display: block;
     background-color: #1F2937;
-    max-height: 450px;
+    height: 450px;
     padding: 20px;
+    
 }
 
 .topone {
@@ -35,25 +40,26 @@ p {
 
 .botone {  
     display: flex;
-    justify-content: center;
+    max-height: 400px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     padding-left: 50px;
     padding-right: 50px;
    
 }
 
-.botone,
-.maintitle,
-.firstquote {
+.botone .maintitle, .firstquote {
     padding: 5px;
+    display: inline-block;
+    
 
 }
 
 p.firstquote {
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-end;
-    flex-wrap: wrap;
+    
     width: 300px;
+    text-align: center;
 }
 
 
@@ -62,6 +68,7 @@ p.firstquote {
     font-size: 48px;
     font-weight: bold;
     color: #F9F8F8;
+    
 }
     
 
@@ -70,13 +77,19 @@ p.firstquote {
     font-size: 24px;
 }
 
-.photocontainer {
-    padding-top: 10px;
+.introphoto {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.introphoto img {
+    
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+
     
 }
 
-.introphoto {
-    height: 300px;
-    width: 300px;
-}
 
