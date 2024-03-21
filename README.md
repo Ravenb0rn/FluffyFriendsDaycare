@@ -12,4 +12,3 @@ https://pixabay.com/illustrations/baking-christmas-christmas-cookies-8460297/
 
 https://pixabay.com/illustrations/dog-puppy-bathtub-rubber-duck-bath-8371778/
 
-logo created with the help of the website https://app.logo.com/

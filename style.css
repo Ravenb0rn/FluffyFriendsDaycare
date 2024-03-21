@@ -87,9 +87,46 @@ p.firstquote {
     height: 250px;
     width: 400px;
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 50% 50%;   
+}
 
+h2 {
+font-weight: 900;
+font-size: 36px;
+color: #1F2937;
+text-align: center;
+}
+
+.parttwo {
+    
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    border: 1px dotted;
+}
+
+.images-container {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;   
+}
+
+.photo-grid-item {
+    display: flex;
+    border: 1px solid #fff;
+    width: 200px;
+    height: 200px;
+    
     
 }
 
-
+img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
