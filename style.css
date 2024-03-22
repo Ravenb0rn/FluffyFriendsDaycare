@@ -149,9 +149,9 @@ h3 {
     text-align: center;
 }
 h4 {
-    text-align: center;
+    text-align: right;
     font-size: 28px;
     text-decoration: none;
-    align-self: flex-start;
-    
+        
 }
+
