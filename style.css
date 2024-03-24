@@ -151,7 +151,11 @@ h3 {
 h4 {
     text-align: right;
     font-size: 28px;
-    text-decoration: none;
-        
+    text-decoration: none;       
 }
 
+.bluebox {
+    display: flex;
+    height: 100px;
+    width: 70%;
+}
