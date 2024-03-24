@@ -192,7 +192,7 @@ h4 {
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
-    border: 1px;
+    border: 1px solid #E5E7EB;
     margin: 0px;   
 }
 
@@ -209,6 +209,4 @@ h4 {
 .left .call {
     font-weight: bold;
 }
-.button.button-primary {
-    border: 1px #E5E7EB;
-}
+
